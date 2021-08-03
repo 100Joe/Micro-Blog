@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
 
 function Home() {
-  // let name = 'Joseph'; Not a reactive value
-  const [name, setName] = useState('Joseph');
-  const [age, setAge] = useState(27);
-
-  const handleClick = () => {
-    setName('Jordan');
-    setAge(28)
-  }
+  const [blogs, setBlogs] = useState([
+    { title: "New Story", body: 'lorem ipsum....', author: 'Joseph', id: 1 },
+    { title: "New breakthrough", body: 'lorem ipsum....', author: 'Jose', id: 2 },
+    { title: "New tale", body: 'lorem ipsum....', author: 'Joe', id: 3 }
+  ]);
 
   return (
     <div className="home">
-      <h2>Welcome to Home {name} is {age} years old</h2>
-      <button onClick={handleClick}>Click here</button>
+      {blogs.map((blog) => (
+        <div className="blog__preview" key={blog.id}>
+          <h2>{blog.title}</h2>
+          <p>Written by {blog.author}</p>
+        </div>
+      ))}
     </div>
   );
 }
