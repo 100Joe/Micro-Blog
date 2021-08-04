@@ -29,7 +29,6 @@
 .navbar a:hover {
   color: #f1356d;
 }
-
 .blog__preview {
   padding: 10px 16px;
   margin: 20px 0;
@@ -38,7 +37,6 @@
 .blog__preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0,0, 0.1);
 }
-
 .blog__preview h2 {
   font-size: 20px;
   color: #f1356d;
@@ -47,3 +45,19 @@
 .blog__preview a {
   text-decoration: none;
 }
+.blog__details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog__details div {
+  margin: 20px 0;
+}
+/* .blog__details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+} */
