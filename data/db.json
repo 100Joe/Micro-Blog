@@ -1,24 +1,34 @@
 {
-  "blogs" : [
+  "blogs": [
     {
-        "title": "New tale", 
-        "body": "lorem ipsum....",
-        "author": "Joe",
-        "id": 3 
+      "title": "New tale",
+      "body": "lorem ipsum....",
+      "author": "Joe",
+      "id": 3
     },
     {
-        "title": "New tale", 
-        "body": "lorem ipsum....",
-        "author": "Jose",
-        "id": 2
+      "title": "New tale",
+      "body": "lorem ipsum....",
+      "author": "Jose",
+      "id": 2
     },
     {
-        "title": "New tale", 
-        "body": "lorem ipsum....",
-        "author": "Joseph",
-        "id": 1 
+      "title": "New tale",
+      "body": "lorem ipsum....",
+      "author": "Joseph",
+      "id": 1
+    },
+    {
+      "title": "adfaa",
+      "body": "fgdfg",
+      "author": "Joseph",
+      "id": 4
+    },
+    {
+      "title": "afgsdf",
+      "body": "sgfsdgs",
+      "author": "Joseph",
+      "id": 5
     }
   ]
 }
-
-//  npx json-server --watch data/db.json --port 8000
