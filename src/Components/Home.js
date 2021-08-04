@@ -1,5 +1,5 @@
-import useFetch from '../useFetch';
 import BlogList from './BlogList';
+import useFetch from '../useFetch';
 
 function Home() {
   const { data: blogs, isLoading, Error } = useFetch('http://localhost:8000/blogs')
