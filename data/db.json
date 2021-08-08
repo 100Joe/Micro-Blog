@@ -1,22 +1,16 @@
 {
   "blogs": [
     {
-      "title": "New tale",
-      "body": "lorem ipsum....",
-      "author": "Joe",
-      "id": 3
-    },
-    {
-      "title": "New tale",
-      "body": "lorem ipsum....",
+      "title": "Test",
+      "body": "Test",
       "author": "Jose",
-      "id": 2
+      "id": 1
     },
     {
-      "title": "New tale",
-      "body": "lorem ipsum....",
-      "author": "Joseph",
-      "id": 1
+      "title": "test",
+      "body": "test",
+      "author": "Jimbo",
+      "id": 2
     }
   ]
 }

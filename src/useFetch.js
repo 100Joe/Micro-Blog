@@ -38,3 +38,6 @@ function useFetch(url) {
 }
 
 export default useFetch;
+
+
+// npx json-server --watch data/db.json --port 8000

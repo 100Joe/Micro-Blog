@@ -45,13 +45,10 @@ function Create() {
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
         <label>Blog author:</label>
-        <select
+        <input
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
-        >
-          <option value="Joseph">Joseph</option>
-          <option value="Jose">Jose</option>
-        </select>
+        />
         {!isLoading && <button>Add Blog</button>}
         {isLoading && <button>Adding Blog...</button>}
       </form>
