@@ -14,7 +14,7 @@ function Create() {
 
     setIsLoading(true);
 
-    fetch('http://localhost:8000/blogs', {
+    fetch('./data/db.json', {
       method: 'POST',
       headers: { "content-type": "application/json" },
       body: JSON.stringify(blog)
