@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Software Development Opportunities 2021",
+      "body": "Test",
+      "author": "Joseph",
+      "id": 1
+    },
+    {
+      "title": "LinkedIn for Networking",
+      "body": "test",
+      "author": "Joseph",
+      "id": 2
+    }
+  ]
+}

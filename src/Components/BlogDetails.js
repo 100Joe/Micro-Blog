@@ -4,12 +4,11 @@ import useFetch from '../useFetch';
 
 function BlogDetails() {
   const { id } = useParams();
-  let port = process.env.port
-  const { data: blog, error, isLoading } = useFetch(`${port}` + id);
+  const { data: blog, error, isLoading } = useFetch('http://localhost:8000/blogs' + id);
   const history = useHistory();
 
   const handleClick = () => {
-    fetch(`${port}` + blog.id, {
+    fetch('http://localhost:8000/blogs' + blog.id, {
       method: 'DELETE'
     }).then(() => {
       history.push('/');

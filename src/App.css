@@ -16,7 +16,7 @@
   padding: 20px;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #0A23F5;
 }
 .navbar .links {
   margin-left: auto;
@@ -27,7 +27,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #0A23F5;
 }
 
 .blog__preview {
@@ -41,6 +41,6 @@
 
 .blog__preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #0A23F5;
   margin-bottom: 8px;
 }
