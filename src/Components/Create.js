@@ -8,12 +8,12 @@ function Create() {
   const [author, setAuthor] = useState('Joseph');
   const [isLoading, setIsLoading] = useState(false);
 
-  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const blog = { title, body, author };
     const newBlog = blog.push([...blogs]);
+    setIsLoading(true)
     return newBlog;
   }
 
